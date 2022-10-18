@@ -13,11 +13,8 @@
     <meta property="og:url" content="https://ezazee.github.io/nyakubitung/" />
     <meta property="og:image" content="assets/img/banner/banner08.jpg"/>
 
-
     <!-- Google tag (gtag.js) Annalytics -->
     @include('includes.script')
-
-
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="assets/img/banner/banner08.jpg">
@@ -39,7 +36,9 @@
     @include('includes.script')
 
     <!-- Unknown Style -->
+
     @include('includes.style')
+
   <body>
 
     <!-- Google Tag Manager (noscript) -->
@@ -56,136 +55,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="page">
 
-      <!-- Header -->
-      <header class="section page-header">
+    <!-- Header -->
+    <header class="section page-header">
         <!--RD Navbar-->
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main">
-                <!--RD Navbar Panel-->
-                <div class="rd-navbar-panel">
-                  <!--RD Navbar Toggle-->
-                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                  <!--RD Navbar Brand-->
-                  <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="Logo Nyaku Bitung" width="181" height="45"/><img class="brand-logo-light" src="assets/img/logo/Logo NIKILA_Lamongan POL.png" alt="Logo Nyaku Bitung" width="181" height="45"/></a>
-                  </div>
-                </div>
-                <div class="rd-navbar-main-element">
-                  <div class="rd-navbar-nav-wrap">
-                    <ul class="rd-navbar-nav">
-                      <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="html/tentang/tentang.html">Tentang</a>
-                      </li> -->
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="#">Mitra</a>
-                        <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/mitra/mitra_merchant/merchant.html">Mitra Merchant</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/mitra/mitra_driver/driver.html">Mitra Driver</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="html/layanan/layanan.html">Layanan</a>
-                        <!-- <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Makanan & Belanja</a>
-                            <ul class="rd-menu rd-navbar-dropdown">
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/oleh-oleh.html">Oleh-Oleh</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/peternakan.html">Peternakan</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/pertanian.html">Pertanian</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/perkebunan.html">Perkebunan</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/perikanan.html">Perikanan</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/kesehatan.html">Kesehatan</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/kerajinan.html">Kerajinan</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/fashion.html">Fashion</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_kategori/elektronik.html">Elektronik</a></li>
-                            </ul>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Transportasi & Logistik</a>
-                            <ul class="rd-menu rd-navbar-dropdown">
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_delivery/niki_anterin.html">Niki Anterin</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_delivery/niki_belanjain.html">Niki Belanjain</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_delivery/niki_delivery.html">Niki Delivery</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_delivery/niki_center.html">Niki Center</a></li>
-                            </ul>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Wisata</a>
-                            <ul class="rd-menu rd-navbar-dropdown">
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_wisata/reservasi.html">Reservasi Hotel</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_wisata/tiket_wisata.html">Tiket Wisata</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/niki_wisata/desa_wisata.html">Desa Wisata</a></li>
-                            </ul>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Pembayaran</a>
-                            <ul class="rd-menu rd-navbar-dropdown">
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/pembayaran/transaksi.html">Bayar Transaksi</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/pembayaran/tagihan.html">Bayar Tagihan</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/pembayaran/topup_saldo_mitra.html">TopUp Saldo Mitra</a></li>
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/pembayaran/topup_pulsa.html">TopUp Pulsa</a></li>
-                            </ul>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Modal Kerja</a>
-                            <ul class="rd-menu rd-navbar-dropdown">
-                              <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html/layanan/modal_kerja/modal_kerja.html">Pinjaman Modal Kerja</a></li>
-                            </ul>
-                          </li>
-                        </ul> -->
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="html/kontak/kontak.html">Kontak</a>
-                      </li>
-                      <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="html/bantuan/bantuan.html">Bantuan</a>
-                      </li> -->
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="html/blog/konten_blog.html">Blog</a>
-                      </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="#">
-                        <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
-                          <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
-                          <path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z"/>
-                        </svg>IDN</a>
-                        <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="index.html"><img src="https://img.icons8.com/color/27/000000/indonesia-circular.png"/> IDN</a>
-                          </li>
-                          <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="html-en/index.html"><img src="https://img.icons8.com/color/27/000000/usa-circular.png"/> ENG</a>
-                          </li>
-                        </ul>
-                      </li>
 
-                    </ul>
-                  </div>
-                  <div class="rd-navbar-collapse">
-                    <a class="button button-secondary button-nuka" href="https://play.google.com/store/apps/details?id=com.nusantaraku.nyaku_app_user_merchant">Belanja Sekarang<span class="button-overlay"></span></a>
-                  </div>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
+            @include('includes.navbar')
+
         </div>
-      </header>
-      <!-- End Header -->
+    </header>
+    <!-- End Header -->
 
-      <!-- Hero Section-->
-     <section id="home" class="atf-particle-one atf-cover-bg atf-hero-area atf-align-items-details" style="background-image: url(assets/img/banner/tentang\ Nyaku1.jpg); background-size:cover; background-position: left;">
-				<div class="atf-round-area d-none d-lg-block"></div>
-				<div class="container atf-particles-area">
-					<div class="row atf-content-details align-items-center">
-        <div class="col-lg-7 col-md-6 col-12 atf-single-details text-lg-left">
-							<h2 class="mb-0 d-block d-lg-block" style="color: var(--warna-putih1);">Ada Nyaku Disetiap Sudut Bitung</h2>
-							<p class="mr-lg-5" style="color: var(--warna-putih1);" > #KitaBela KitaBeli Produk Lokal</p>
-        <div class="atf-one__btn-wrap">
-							<a href="https://play.google.com/store/apps/details?id=com.nusantaraku.nyaku_app_user_merchant"> <img src="assets/img/googleplay.png" width="150px" alt="googleplay"></a>
-							</div>
-						</div>
+    <!-- Hero Section-->
 
-        <div class="col-lg-5 col-md-5 col-12 atf_home_img  atf_home_img4 text-center">
-							<div class="atf-img-inner  wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s" data-wow-offset="0">
-								<div class="home-image-box atf-particle-img"><img src="./assets/img/Frame Smartphone.png" alt="Nyaku Bitung Mockup" class="card-s"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-      <!-- Akhir Hero Section -->
+    @include('includes.hero')
+
+    <!-- Akhir Hero Section -->
 
         <!-- Tentang-->
         <section class="section section-md bg-default" id="about">
@@ -198,7 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <path d="M18.0698 8.92762C19.3101 9.63455 19.3101 11.3655 18.0698 12.0724L2.85678 20.7432C1.59455 21.4626 -6.40869e-08 20.585 0 19.1708L7.85887e-07 1.82916C8.49974e-07 0.414998 1.59455 -0.462644 2.85678 0.256784L18.0698 8.92762Z"></path>
                     </svg>
                   </a>
-                  <img class="box-shadow" src="assets/img/Ilustrasi/Aset Ilustrasi02.jpg" alt="Apa itu Nyaku Bitung" width="660" height="406"/>
+                  <img class="box-shadow" src="{{ asset('frontend/assets/img/Ilustrasi/AsetIlustrasi02.jpg') }}" alt="Apa itu Nyaku Bitung" width="660" height="406"/>
                 </div>
               </div>
               <div class="col-xl-5 col-lg-6">
@@ -212,17 +97,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Akhir Tentang -->
 
         <!-- Banner -->
-         <div class="content">
-    <div class="container wow fadeInUp">
-      <h2 class="my-5 text-center" style="font-family: var(--font-dasar);"> <span style="color: var(--warna-dasar);">Fasilitas</span> Yang Kami Sajikan</h2>
-      <div class="owl-carousel owl-1">
-        <div><img src="assets/img/banner/Slide_WEB Banner_Bitung Kota Bahari.jpg" alt="Nyaku Bitung Banner" class="img-fluid"></div>
-        <div><img src="assets/img/banner/Slide_WEB Banner_Driver.jpg" alt="Nyaku Bitung Banner" class="img-fluid"></div>
-        <div><img src="assets/img/banner/Slide_WEB Banner_PPOB.jpg" alt="Nyaku Bitung Banner" class="img-fluid"></div>
-        <div><img src="assets/img/banner/Slide_WEB Banner_Reservasi Hotel.jpg" alt="Nyaku Bitung Banner" class="img-fluid"></div>
-        <div><img src="assets/img/banner/Slide_WEB Banner_Wisata.jpg" alt="Nyaku Bitung Banner" class="img-fluid"></div>
-      </div>
-    </div>
+        <div class="content">
+                <div class="container wow fadeInUp">
+                <h2 class="my-5 text-center" style="font-family: var(--font-dasar);"> <span style="color: var(--warna-dasar);">Fasilitas</span> Yang Kami Sajikan</h2>
+                <div class="owl-carousel owl-1">
+                    <div><img src="{{ asset('frontend/assets/img/banner/Slide1.jpg') }}" alt="Nyaku Bitung Banner" class="img-fluid"></div>
+                    <div><img src="{{ asset('frontend/assets/img/banner/Slide2.jpg') }}" alt="Nyaku Bitung Banner" class="img-fluid"></div>
+                    <div><img src="{{ asset('frontend/assets/img/banner/Slide3.jpg') }}" alt="Nyaku Bitung Banner" class="img-fluid"></div>
+                    <div><img src="{{ asset('frontend/assets/img/banner/Slide4.jpg') }}" alt="Nyaku Bitung Banner" class="img-fluid"></div>
+                    <div><img src="{{ asset('frontend/assets/img/banner/Slide5.jpg') }}" alt="Nyaku Bitung Banner" class="img-fluid"></div>
+                </div>
+        </div>
   </div>
   <!-- End Banner -->
 
@@ -236,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <p class="big">Nyaku Bitung merupakan E-Katalog produk kearifan lokal Kota Bitung yang merupakan portofolio produk daerah untuk sektor UMKM, komodistas, pariwisata sehingga memudahkan wisatawan mengenal produk-produk kearifan lokal Kota Bitung.</p>
               </div>
               <div class="col-xl-6 col-lg-6">
-                <div class="text-center text-lg-left"><img src="assets/img/Ilustrasi/home-img.png" alt="Kenapa Harus Nyaku Bitung" width="500" height="406"/>
+                <div class="text-center text-lg-left"><img src="{{ asset('frontend/assets/img/Ilustrasi/home-img.png') }}" alt="Kenapa Harus Nyaku Bitung" width="500" height="406"/>
                 </div>
               </div>
             </div>
@@ -627,6 +512,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </footer>
         <!-- Akhir Footer -->
+
     <div class="snackbars" id="form-output-global"></div>
     <script src="{{ asset('frontend/js/core.min.js') }}"></script>
     <script src="{{ asset('frontend/js/script.js') }}"></script>
@@ -671,5 +557,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
       })
     </script>
+
   </body>
 </html>
