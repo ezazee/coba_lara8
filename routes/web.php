@@ -79,7 +79,7 @@ Route::get('/admin/category/edit', [CategoryLayananController::class, 'Edit']);
 Route::get('/admin/mitra_landing', [MitraLandingController::class, 'Mitra_Landing']);
 Route::get('/admin/mitra_landing/edit', [MitraLandingController::class, 'Edit']);
 
-// Video Bantuan Section 
+// Video Bantuan Section
 Route::get('/admin/video_bantuan', [VideoBantuanController::class, 'Bantuan']);
 Route::get('/admin/video_bantuan/edit', [VideoBantuanController::class, 'Edit']);
 Route::get('/admin/video_bantuan/create', [VideoBantuanController::class, 'Create']);

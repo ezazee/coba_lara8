@@ -8,14 +8,13 @@
           <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
           <!--RD Navbar Brand-->
           <div class="rd-navbar-brand">
-            <!--Brand--><a class="brand" href="../../../../index.html"><img class="brand-logo-dark" src="{{ asset('frontend/assets/img/logo/logo1.png') }}" alt="" width="181" height="45"/><img class="brand-logo-light" src="{{ asset('frontend/assets/img/logo/logo1.png') }}" alt="" width="181" height="45"/></a>
+            <!--Brand-->
+            <a class="brand" href="../../../../index.html"><img class="brand-logo-dark" src="{{ asset('frontend/assets/img/logo/logo1.png') }}" alt="" width="181" height="45"/><img class="brand-logo-light" src="{{ asset('frontend/assets/img/logo/logo1.png') }}" alt="" width="181" height="45"/></a>
           </div>
         </div>
         <div class="rd-navbar-main-element">
           <div class="rd-navbar-nav-wrap">
             <ul class="rd-navbar-nav">
-              <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="../../../tentang/tentang.html">Tentang Nikila</a>
-              </li> -->
               <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('index') }}">Mitra</a>
                 <ul class="rd-menu rd-navbar-dropdown">
                   <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{ route('merchant') }}">Mitra Merchant</a>
@@ -25,55 +24,11 @@
                 </ul>
               </li>
               <li class="rd-nav-item"><a class="rd-nav-link" href="../../../layanan/layanan.html">Layanan</a>
-                <!-- <ul class="rd-menu rd-navbar-dropdown">
-                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Makanan & Belanja</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Oleh-Oleh</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Peternakan</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Pertanian</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Perkebunan</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Perikanan</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Kesehatan</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Kerajinan</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Fashion</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Elektronik</a></li>
-                    </ul>
-                  </li>
-                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Transportasi & Logistik</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Niki Anterin</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Niki Belanjain</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Niki Delivery</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Niki Center</a></li>
-                    </ul>
-                  </li>
-                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Wisata</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Reservasi Hotel</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Tiket Wisata</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Desa Wisata</a></li>
-                    </ul>
-                  </li>
-                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Pembayaran</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Bayar Transaksi</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Bayar Tagihan</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">TopUp Saldo Mitra</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">TopUp Pulsa</a></li>
-                    </ul>
-                  </li>
-                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Modal Kerja</a>
-                    <ul class="rd-menu rd-navbar-dropdown">
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="#">Pinjaman Modal Kerja</a></li>
-                    </ul>
-                  </li>
-                </ul> -->
               </li>
               <li class="rd-nav-item"><a class="rd-nav-link" href="../../../kontak/kontak.html">Kontak</a>
               </li>
-              <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="../../../bantuan/bantuan.html">Bantuan</a>
-              </li> -->
-              <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('blog') }}>Blog</a>
+              </li>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('blog') }}">Blog</a>
               </li>
               <li class="rd-nav-item"><a class="rd-nav-link" href="#">
                 <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
@@ -93,4 +48,4 @@
         </div>
       </div>
     </div>
-  </nav>
+</nav>
