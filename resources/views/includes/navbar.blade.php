@@ -16,11 +16,11 @@
             <ul class="rd-navbar-nav">
               <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="../../../tentang/tentang.html">Tentang Nikila</a>
               </li> -->
-              <li class="rd-nav-item"><a class="rd-nav-link" href="#">Mitra</a>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('index') }}">Mitra</a>
                 <ul class="rd-menu rd-navbar-dropdown">
-                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="../../../mitra/mitra_merchant/merchant.html">Mitra Merchant</a>
+                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{ route('merchant') }}">Mitra Merchant</a>
                   </li>
-                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="../../../mitra/mitra_driver/driver.html">Mitra Driver</a>
+                  <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="{{ route('driver') }}">Mitra Driver</a>
                   </li>
                 </ul>
               </li>
@@ -73,7 +73,7 @@
               </li>
               <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="../../../bantuan/bantuan.html">Bantuan</a>
               </li> -->
-              <li class="rd-nav-item"><a class="rd-nav-link" href="../../../blog/konten_blog.html">Blog</a>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('blog') }}>Blog</a>
               </li>
               <li class="rd-nav-item"><a class="rd-nav-link" href="#">
                 <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
