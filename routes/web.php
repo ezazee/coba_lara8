@@ -1,7 +1,11 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\DetailsBlogController;
+use App\Http\Controllers\DriverController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MerchantController;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\FaqController;
 use App\Http\Controllers\Admin\HeroController;
 use App\Http\Controllers\Admin\AboutController;
@@ -79,3 +83,12 @@ Route::get('/admin/mitra_landing/edit', [MitraLandingController::class, 'Edit'])
 Route::get('/admin/video_bantuan', [VideoBantuanController::class, 'Bantuan']);
 Route::get('/admin/video_bantuan/edit', [VideoBantuanController::class, 'Edit']);
 Route::get('/admin/video_bantuan/create', [VideoBantuanController::class, 'Create']);
+
+
+
+
+// FE Web
+Route::get('merchant', [MerchantController::class, 'merchant'])->name('merchant');
+Route::get('driver', [DriverController::class, 'driver'])->name('driver');
+Route::get('blog', [BlogController::class, 'blog'])->name('blog');
+Route::get('blog/{slug}', [DetailsBlogController::class, 'details'])->name('details');
